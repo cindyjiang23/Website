@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Cindy Jiang | Contact</title>
+
+    <meta charset="utf-8">
+
+	<meta name="keywords" content="Cindy Jiang, Intern, Introduction, Final Project, ITP 104">
+
+	<meta name="description" content="This page is a contact me form, where I viewers who may have questions about me can put down their inquiry. After clicking the submit button, they will be directed to a confirmation page.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+
+        #container {
+        width: 1100px;
+        height: 1000px;
+
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(225, 193, 152);
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 50px;
+        }
+
+        #footer {
+            position: relative;
+            bottom: 55px;
+
+        }
+
+
+        #image {
+            width: 450px;
+            height: auto;
+
+
+        }
+        #image img {
+            width: 100%;
+            float: left;
+            position: relative;
+            left: 600px;
+            bottom: 280px;
+            
+        }
+
+        form {
+            position: relative;
+            left: 20px;
+            padding: 20px;
+            width: 500px;
+        }
+        .form-row {
+		margin: 10px 0px;
+		display: flex;
+        font-family: "GeosansLight", sans-serif;
+        font-size: 1.2em;
+	    }
+	    .left-col {
+		width: 250px;
+	    }
+
+        form, .form-row, .left-col, label, input, button, textarea {
+        font-family: "GeosansLight", sans-serif;
+        font-size: 1.1em;
+        }
+
+        #name-id {
+            width: 300px;
+        }
+        #email-id {
+            width: 300px;
+        }
+        #msg {
+            width: 300px;
+        }
+        #submit {
+            text-decoration: none;
+			display: block;
+			background-color: rgb(165, 129, 77);
+			color: #FFF;
+			width: 150px;
+			line-height: 50px;
+			text-align: center;
+            position: relative;
+            left: 180px;
+            top: 20px;
+            font-family: "Moon Flower Bold", cursive;
+            font-weight: normal;
+            font-size: 1.5em;
+        }
+        #conclusion h2{
+        font-family: "Dominique", cursive;
+        font-weight: normal;
+        font-size: 2em;
+        position: relative;
+        left: 400px;
+        bottom: 200px;
+
+
+        }
+        
+    </style>
+
+    </style>
+
+    <body>
+
+    <div id="wrapper">
+        <div id="header">
+            <h1>Contact Me</h1>
+        </div> <!--#header-->
+    </div> <!--#wrapper-->
+
+    <div id="navbar">
+		<div id="nav">
+
+			<ul>
+				<li id="home"><a href="home.html">Home</a></li>
+				<li id="about"><a href="about.html">About</a></li>
+                <li id="photography"><a href="photography.html">Photography</a></li>
+				<li id="portfolio"><a href="portfolio.html">Fitchen</a></li>
+                <li id="contact"><a href="contact.html" id="active-nav">Contact</a></li>
+			</ul>
+
+		</div> <!-- #nav -->
+	</div> <!-- #navbar -->
+
+    <div id="container">
+        
+
+        <form action="confirmation.html">
+            <div class="form-row">
+                <div class="left-col">
+            <label for="name-id">Name * </label>
+                </div><!-- .left-col -->
+            <input type="text" id="name-id">
+            </div><!-- .form-row -->
+    
+            <div class="form-row">
+                <div class="left-col">
+            <label for="email-id">Email Address * </label>
+                </div><!-- .left-col -->	
+            <input type="text" id="email-id">
+            </div><!-- .form-row -->
+    
+            <div class="form-row">
+                <div class="left-col">
+                <label for="msg">Anything you'd like to ask me? Or anything you want to share!</label>
+                </div><!-- .left-col -->
+                <textarea id="msg" placeholder="I'd like to play tennis with you!"></textarea>
+            </div><!-- .form-row -->
+    
+            <div class="form-row">
+            <button id="submit" type="submit">Submit</button>
+            </div><!-- .form-row -->
+        </form>
+
+        <div id="image">
+            <img src="img/image.png" alt="Me">
+        <!-- #image -->
+
+        <div id="conclusion">
+            <h2>Thank you for your time!</h2>
+        </div> <!-- #conclusion -->
+        
+
+    </div> <!--#container-->
+    <div id="footer">
+        <p>Cindy Jiang &copy; 2023</p>
+    </div> <!--footer-->
+
+</body>
+</html>
